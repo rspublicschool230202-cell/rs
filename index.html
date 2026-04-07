@@ -410,6 +410,7 @@ footer{background:#040D1A}
   <div class="admin-bar-right">
     <button class="ab-btn" onclick="openNoticeModal()">➕ Notice जोड़ें</button>
     <button class="ab-btn" onclick="openTimingModal()">🕐 Timing Edit</button>
+    <button class="ab-btn" onclick="openHolidayModal()">🎉 Holidays Edit</button>
     <button class="ab-btn" onclick="openSMModal()">📱 Social Media</button>
     <button class="ab-btn danger" onclick="adminLogout()">🔒 Logout</button>
   </div>
@@ -593,116 +594,54 @@ footer{background:#040D1A}
 
       <!-- 01 Computer Lab -->
       <div class="fc">
-        <div class="fc-img-wrap" style="background:linear-gradient(135deg,#0d2a5e 0%,#1a1a4a 50%,#0a1628 100%);display:flex;align-items:center;justify-content:center">
-          <div style="display:flex;gap:18px;align-items:flex-end;padding:12px">
-            <div style="width:70px;height:52px;background:#1a3a6e;border-radius:5px;border:2px solid #2a5a9e;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px"><div style="width:50px;height:34px;background:#0a1f40;border-radius:2px;border-top:3px solid #C8971F"></div><div style="width:40px;height:4px;background:#1a3a6e;border-radius:2px"></div></div>
-            <div style="width:80px;height:60px;background:#1a3a6e;border-radius:5px;border:2px solid #2a5a9e;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px"><div style="width:60px;height:40px;background:#0a1f40;border-radius:2px;border-top:3px solid #E8B84B"></div><div style="width:48px;height:4px;background:#1a3a6e;border-radius:2px"></div></div>
-            <div style="width:70px;height:52px;background:#1a3a6e;border-radius:5px;border:2px solid #2a5a9e;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px"><div style="width:50px;height:34px;background:#0a1f40;border-radius:2px;border-top:3px solid #C8971F;font-size:16px;display:flex;align-items:center;justify-content:center;color:#C8971F;font-family:monospace">&gt;_</div><div style="width:40px;height:4px;background:#1a3a6e;border-radius:2px"></div></div>
-          </div>
-        </div>
+        <div class="fc-img-wrap"><img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=600&q=80&auto=format&fit=crop" alt="Computer Lab"/></div>
         <div class="fc-content">
-          <div class="fc-num">01</div><div class="fc-ic">💻</div>
-          <h3>Computer Lab</h3>
+                    <h3>Computer Lab</h3>
           <p>आधुनिक कम्प्यूटरों से युक्त प्रयोगशाला — विद्यार्थी यहाँ डिजिटल कौशल सीखते हैं और भविष्य के लिए तैयार होते हैं।</p>
         </div>
       </div>
 
       <!-- 02 Smart Classroom -->
       <div class="fc">
-        <div class="fc-img-wrap" style="background:linear-gradient(135deg,#091840 0%,#0d2558 50%,#0a1628 100%);display:flex;align-items:center;justify-content:center;overflow:hidden">
-          <div style="position:relative;width:260px;height:130px">
-            <div style="position:absolute;top:8px;left:10px;right:10px;height:80px;background:#0a1f40;border:2px solid #1a3a7e;border-radius:4px;display:flex;align-items:center;justify-content:center">
-              <div style="font-size:28px">📊</div>
-            </div>
-            <div style="position:absolute;bottom:4px;left:0;right:0;display:flex;justify-content:center;gap:8px">
-              <div style="width:50px;height:34px;background:#1a2f5e;border:1px solid #2a4a8e;border-radius:3px"></div>
-              <div style="width:50px;height:34px;background:#1a2f5e;border:1px solid #2a4a8e;border-radius:3px"></div>
-              <div style="width:50px;height:34px;background:#1a2f5e;border:1px solid #2a4a8e;border-radius:3px"></div>
-            </div>
-            <div style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:3px;height:20px;background:#1a3a6e"></div>
-          </div>
-        </div>
+        <div class="fc-img-wrap"><img src="https://images.unsplash.com/photo-1594312915251-48db9280c8f1?w=600&q=80&auto=format&fit=crop" alt="Smart Classroom"/></div>
         <div class="fc-content">
-          <div class="fc-num">02</div><div class="fc-ic">📺</div>
-          <h3>Smart Classroom</h3>
+                    <h3>Smart Classroom</h3>
           <p>टी.वी. और व्हाइटबोर्ड से युक्त आधुनिक कक्षा — पढ़ाई अब और अधिक आसान, रोचक और प्रभावशाली हो गई है।</p>
         </div>
       </div>
 
       <!-- 03 Science Activities -->
       <div class="fc">
-        <div class="fc-img-wrap" style="background:linear-gradient(135deg,#0a2818 0%,#0d1f40 60%,#0a1628 100%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:8px;gap:10px">
-          <div style="width:18px;height:70px;background:linear-gradient(to top,#2a7a4a,#1a4a2a);border-radius:3px 3px 0 0;border:1px solid #3a9a5a;display:flex;align-items:flex-start;justify-content:center;padding-top:4px"><div style="width:14px;height:8px;background:#2a9a5a;border-radius:2px 2px 0 0;opacity:.6"></div></div>
-          <div style="width:18px;height:90px;background:linear-gradient(to top,#1a5a8a,#0d3a6a);border-radius:3px 3px 0 0;border:1px solid #2a7aaa;display:flex;align-items:flex-start;justify-content:center;padding-top:4px"><div style="width:14px;height:8px;background:#2a8aaa;border-radius:2px 2px 0 0;opacity:.6"></div></div>
-          <div style="width:18px;height:55px;background:linear-gradient(to top,#8a4a1a,#5a2a0a);border-radius:3px 3px 0 0;border:1px solid #C8971F;display:flex;align-items:flex-start;justify-content:center;padding-top:4px"><div style="width:14px;height:8px;background:#C8971F;border-radius:2px 2px 0 0;opacity:.6"></div></div>
-          <div style="width:44px;height:80px;background:#1a2f5e;border:2px solid #2a4a8e;border-radius:4px;margin-left:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px"><div style="font-size:22px">🔬</div><div style="width:30px;height:2px;background:#C8971F;border-radius:1px;opacity:.5"></div></div>
-        </div>
+        <div class="fc-img-wrap"><img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&q=80&auto=format&fit=crop" alt="Science Activities"/></div>
         <div class="fc-content">
-          <div class="fc-num">03</div><div class="fc-ic">🔬</div>
-          <h3>Science Activities</h3>
+                    <h3>Science Activities</h3>
           <p>विज्ञान गतिविधियाँ और परियोजनाएँ — विद्यार्थी केवल पढ़ते नहीं, करके सीखते हैं और ज्ञान को व्यावहारिक रूप देते हैं।</p>
         </div>
       </div>
 
       <!-- 04 Sports Ground -->
       <div class="fc">
-        <div class="fc-img-wrap" style="background:linear-gradient(180deg,#0a1628 0%,#0d2a14 60%,#0a2010 100%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden">
-          <div style="position:absolute;bottom:0;left:0;right:0;height:55px;background:#0d2a14;border-top:2px solid #1a4a20"></div>
-          <div style="position:relative;width:160px;height:100px;border:2px solid #1a4a2090;border-radius:3px;display:flex;align-items:center;justify-content:center">
-            <div style="width:60px;height:60px;border-radius:50%;border:2px solid #1a4a2090;display:flex;align-items:center;justify-content:center">
-              <div style="width:8px;height:8px;background:#1a4a20;border-radius:50%"></div>
-            </div>
-            <div style="position:absolute;left:50%;top:0;bottom:0;width:1px;background:#1a4a2090"></div>
-          </div>
-          <div style="position:absolute;font-size:32px;right:20px;top:50%;transform:translateY(-50%);opacity:.4">⚽</div>
-        </div>
+        <div class="fc-img-wrap"><img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=600&q=80&auto=format&fit=crop" alt="Sports Ground"/></div>
         <div class="fc-content">
-          <div class="fc-num">04</div><div class="fc-ic">⚽</div>
-          <h3>Sports Ground</h3>
+                    <h3>Sports Ground</h3>
           <p>बाहरी खेलों के लिए खुला मैदान — क्रिकेट, फुटबॉल और अन्य खेल। खेल से भी बच्चे अनुशासन और टीमवर्क सीखते हैं।</p>
         </div>
       </div>
 
       <!-- 05 Clean Washrooms -->
       <div class="fc">
-        <div class="fc-img-wrap" style="background:linear-gradient(135deg,#071a28 0%,#0a2235 50%,#071520 100%);display:flex;align-items:center;justify-content:center;gap:16px">
-          <div style="width:48px;height:80px;background:linear-gradient(to bottom,#1a3a5e,#0d2035);border:1px solid #2a5a8e;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🚿</div>
-          <div style="display:flex;flex-direction:column;gap:10px">
-            <div style="width:56px;height:34px;background:#1a3a5e;border:1px solid #2a5a8e;border-radius:50% 50% 0 0;display:flex;align-items:center;justify-content:center;font-size:14px">🚰</div>
-            <div style="width:56px;height:20px;background:#0d2035;border:1px solid #1a4a6e;border-radius:2px"></div>
-          </div>
-          <div style="position:absolute;right:18px;top:12px;background:rgba(42,138,74,.2);border:1px solid rgba(42,138,74,.4);border-radius:6px;padding:4px 8px;font-size:10px;color:#3aaa5a;font-family:sans-serif;font-weight:600">✓ स्वच्छ</div>
-        </div>
+        <div class="fc-img-wrap"><img src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=600&q=80&auto=format&fit=crop" alt="Clean Washrooms"/></div>
         <div class="fc-content">
-          <div class="fc-num">05</div><div class="fc-ic">🚻</div>
-          <h3>Clean Washrooms</h3>
+                    <h3>Clean Washrooms</h3>
           <p>साफ और सुरक्षित शौचालय की सुविधा — स्वच्छ भारत अभियान के अनुकूल हमारे विद्यालय का संकल्प।</p>
         </div>
       </div>
 
       <!-- 06 Ventilated Classrooms -->
       <div class="fc">
-        <div class="fc-img-wrap" style="background:linear-gradient(135deg,#091530 0%,#0d2040 50%,#0a1628 100%);display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:10px">
-          <div style="width:70px;height:55px;background:#0d2035;border:1px solid #1a3a6e;border-radius:4px;display:flex;flex-direction:column;justify-content:space-around;padding:6px 8px">
-            <div style="height:4px;background:#1a4a8e;border-radius:2px;width:90%"></div>
-            <div style="height:4px;background:#1a4a8e;border-radius:2px;width:75%"></div>
-            <div style="height:4px;background:#1a4a8e;border-radius:2px;width:85%"></div>
-            <div style="height:4px;background:#1a4a8e;border-radius:2px;width:70%"></div>
-          </div>
-          <div style="display:flex;flex-direction:column;align-items:center;gap:4px">
-            <div style="font-size:26px;opacity:.7">🌬️</div>
-            <div style="font-size:10px;color:rgba(200,151,31,.6);font-family:sans-serif">हवादार</div>
-          </div>
-          <div style="width:70px;height:55px;background:#0d2035;border:1px solid #1a3a6e;border-radius:4px;display:flex;flex-direction:column;justify-content:space-around;padding:6px 8px">
-            <div style="height:4px;background:#1a4a8e;border-radius:2px;width:85%"></div>
-            <div style="height:4px;background:#1a4a8e;border-radius:2px;width:90%"></div>
-            <div style="height:4px;background:#1a4a8e;border-radius:2px;width:65%"></div>
-            <div style="height:4px;background:#1a4a8e;border-radius:2px;width:80%"></div>
-          </div>
-        </div>
+        <div class="fc-img-wrap"><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80&auto=format&fit=crop" alt="Ventilated Classroom"/></div>
         <div class="fc-content">
-          <div class="fc-num">06</div><div class="fc-ic">🌬️</div>
-          <h3>Ventilated Classrooms</h3>
+                    <h3>Ventilated Classrooms</h3>
           <p>पंखे से युक्त हवादार कक्षाएँ — गर्मी में भी बच्चे आराम से बैठकर ध्यान लगाकर पढ़ सकें, यही हमारी प्राथमिकता है।</p>
         </div>
       </div>
@@ -741,12 +680,12 @@ footer{background:#040D1A}
           </div>
         </div>
         <div class="nb-sc">
-          <div class="nb-sc-h"><span>🎉</span><h4>Upcoming Holidays</h4></div>
-          <div class="nb-sc-body">
-            <div class="h-row"><span class="h-dt">14 अप्रैल</span><span class="h-nm">डॉ. आम्बेडकर जयन्ती</span></div>
-            <div class="h-row"><span class="h-dt">1 मई</span><span class="h-nm">मजदूर दिवस</span></div>
-            <div class="h-row"><span class="h-dt">23 मई</span><span class="h-nm">बुद्ध पूर्णिमा</span></div>
-            <div class="h-row"><span class="h-dt">जून–जुलाई</span><span class="h-nm">ग्रीष्मकालीन अवकाश</span></div>
+          <div class="nb-sc-h" style="justify-content:space-between">
+            <div style="display:flex;align-items:center;gap:8px"><span>🎉</span><h4>Upcoming Holidays</h4></div>
+            <button class="timing-edit-btn" id="holidayEditBtn" onclick="openHolidayModal()">✏️ Edit</button>
+          </div>
+          <div class="nb-sc-body" id="holidayBody">
+            <!-- rendered by JS -->
           </div>
         </div>
         <div class="call-box">
@@ -1005,6 +944,20 @@ footer{background:#040D1A}
   </div>
 </footer>
 
+<!-- HOLIDAY MODAL -->
+<div class="modal-ov" id="holidayModal">
+  <div class="modal-box wide" style="max-height:90vh;overflow-y:auto">
+    <h3>🎉 Upcoming Holidays Edit करें</h3>
+    <p>छुट्टियों की सूची अपडेट करें। खाली छोड़ें तो वो row नहीं दिखेगी।</p>
+    <div id="holiday-rows"></div>
+    <button onclick="addHolidayRow()" style="background:none;border:1.5px dashed var(--gold);color:var(--gold);padding:8px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600;width:100%;margin-bottom:1rem">➕ और छुट्टी जोड़ें</button>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeHolidayModal()">Cancel</button>
+      <button class="btn-save" onclick="saveHolidays()">Save ✓</button>
+    </div>
+  </div>
+</div>
+
 <!-- TIMING MODAL -->
 <div class="modal-ov" id="timingModal">
   <div class="modal-box wide">
@@ -1121,6 +1074,12 @@ var defaultData = {
   photos: [],
   staffPhotos: {s1:'',s2:'',s3:'',prin:''},
   social: {fb:'',yt:'',wa:'',ig:''},
+  holidays: [
+    {date:'14 अप्रैल', name:'डॉ. आम्बेडकर जयन्ती'},
+    {date:'1 मई', name:'मजदूर दिवस'},
+    {date:'23 मई', name:'बुद्ध पूर्णिमा'},
+    {date:'जून–जुलाई', name:'ग्रीष्मकालीन अवकाश'}
+  ],
   timing: {mf:'8:00 – 2:30', sat:'8:00 – 12:30', sun:'Holiday'},
   location: {village:'सहजनी पूरे गिरवर', district:'सुल्तानपुर, उत्तर प्रदेश', pin:'228001', mapUrl:'https://maps.google.com/maps?q=Sahijani+Pure+Girwar+Sultanpur+UP&output=embed&z=14', mapLink:'https://maps.google.com/?q=Sahijani+Pure+Girwar+Sultanpur+UP'}
 };
@@ -1140,6 +1099,7 @@ var DATA = loadData();
 // ── INIT ──
 window.onload = function(){
   renderNotices();
+  renderHolidays();
   renderGallery();
   loadStaffPhotos();
   loadSocialLinks();
@@ -1209,6 +1169,7 @@ function enableAdminMode(){
   document.getElementById('prinWrap').onclick = function(){ document.getElementById('prin-file').click(); };
   // Social edit btn
   document.querySelector('.sm-edit-btn').classList.add('admin-show');
+  var heb=document.getElementById('holidayEditBtn');if(heb)heb.classList.add('admin-show');
   // Notice edit btns
   document.querySelectorAll('.nb-edit-btn').forEach(function(b){ b.classList.add('admin-show'); });
   // Timing edit btn
@@ -1229,6 +1190,7 @@ function disableAdminMode(){
   document.getElementById('prinWrap').style.cursor = 'default';
   document.getElementById('prinWrap').onclick = null;
   document.querySelector('.sm-edit-btn').classList.remove('admin-show');
+  var heb=document.getElementById('holidayEditBtn');if(heb)heb.classList.remove('admin-show');
   document.querySelectorAll('.nb-edit-btn').forEach(function(b){ b.classList.remove('admin-show'); });
   document.getElementById('timingEditBtn').classList.remove('admin-show');
   document.getElementById('locEditBtn').style.display = 'none';
@@ -1470,6 +1432,69 @@ function saveSM(){
 document.getElementById('smModal').addEventListener('click',function(e){if(e.target===this)closeSMModal();});
 document.getElementById('noticeModal').addEventListener('click',function(e){if(e.target===this)closeNoticeModal();});
 document.getElementById('loginModal').addEventListener('click',function(e){if(e.target===this)closeLogin();});
+
+
+// ── HOLIDAYS ──
+function renderHolidays(){
+  var body = document.getElementById('holidayBody');
+  if(!body) return;
+  body.innerHTML = '';
+  var list = DATA.holidays || [];
+  list.forEach(function(hl){
+    if(!hl.date && !hl.name) return;
+    var row = document.createElement('div');
+    row.className = 'h-row';
+    row.innerHTML = '<span class="h-dt">'+hl.date+'</span><span class="h-nm">'+hl.name+'</span>';
+    body.appendChild(row);
+  });
+}
+function openHolidayModal(){
+  var container = document.getElementById('holiday-rows');
+  container.innerHTML = '';
+  var list = DATA.holidays || [];
+  list.forEach(function(hl){ addHolidayRowFilled(hl.date, hl.name); });
+  if(!list.length) addHolidayRow();
+  document.getElementById('holidayModal').classList.add('open');
+}
+function closeHolidayModal(){ document.getElementById('holidayModal').classList.remove('open'); }
+function addHolidayRow(date, name){
+  addHolidayRowFilled(date||'', name||'');
+}
+function addHolidayRowFilled(date, name){
+  var container = document.getElementById('holiday-rows');
+  var wrap = document.createElement('div');
+  wrap.style.cssText = 'display:flex;gap:8px;margin-bottom:8px;align-items:center';
+  var inp1 = document.createElement('input');
+  inp1.className = 'modal-input h-date-inp';
+  inp1.placeholder = 'दिनांक (जैसे: 14 अप्रैल)';
+  inp1.value = date;
+  inp1.style.marginBottom = '0';
+  var inp2 = document.createElement('input');
+  inp2.className = 'modal-input h-name-inp';
+  inp2.placeholder = 'छुट्टी का नाम';
+  inp2.value = name;
+  inp2.style.marginBottom = '0';
+  var del = document.createElement('button');
+  del.textContent = '✕';
+  del.style.cssText = 'background:#FEE2E2;border:none;color:#DC2626;width:32px;height:32px;border-radius:6px;cursor:pointer;flex-shrink:0;font-size:14px';
+  del.onclick = function(){ container.removeChild(wrap); };
+  wrap.appendChild(inp1); wrap.appendChild(inp2); wrap.appendChild(del);
+  container.appendChild(wrap);
+}
+function saveHolidays(){
+  var dates = document.querySelectorAll('.h-date-inp');
+  var names = document.querySelectorAll('.h-name-inp');
+  var list = [];
+  dates.forEach(function(d, i){
+    var dt = d.value.trim(); var nm = names[i].value.trim();
+    if(dt || nm) list.push({date:dt, name:nm});
+  });
+  DATA.holidays = list;
+  saveData(DATA);
+  renderHolidays();
+  closeHolidayModal();
+}
+document.getElementById('holidayModal').addEventListener('click',function(e){if(e.target===this)closeHolidayModal();});
 
 // ── NAV ──
 function setupNav(){
