@@ -443,7 +443,7 @@ footer{background:#040D1A}
     <div class="tb-left">
       <span class="tb-item">📍 सहजनी पूरे गिरवर</span>
       <a class="tb-item" href="tel:8787035980">📞 8787035980 / 9335399235</a>
-      <a class="tb-item" href="mailto:r.spublicschool230202@gmail.com">✉️ r.spublicschool230202@gmail.com</a>
+      <a class="tb-item" href="/cdn-cgi/l/email-protection#03712d707376616f6a6070606b6c6c6f31303331333143646e626a6f2d606c6e">✉️ <span class="__cf_email__" data-cfemail="6d1f431e1d180f01040e1e0e050202015f5e5d5f5d5f2d0a000c0401430e0200">[email&#160;protected]</span></a>
     </div>
     <div class="tb-right">
       <span class="tb-label">Follow Us</span>
@@ -916,7 +916,7 @@ footer{background:#040D1A}
       <div class="con-cards">
         <div class="cc"><div class="cc-ic">📍</div><div><div class="cc-lbl">Address</div><div class="cc-val">आर.एस. पब्लिक स्कूल<br>सहजनी पूरे गिरवर</div></div></div>
         <div class="cc"><div class="cc-ic">📞</div><div><div class="cc-lbl">Phone</div><div class="cc-val"><a href="tel:8787035980">8787035980</a><a href="tel:9335399235">9335399235</a></div></div></div>
-        <div class="cc"><div class="cc-ic">✉️</div><div><div class="cc-lbl">Email</div><div class="cc-val"><a href="mailto:r.spublicschool230202@gmail.com">r.spublicschool230202@gmail.com</a></div></div></div>
+        <div class="cc"><div class="cc-ic">✉️</div><div><div class="cc-lbl">Email</div><div class="cc-val"><a href="/cdn-cgi/l/email-protection#b1c39fc2c1c4d3ddd8d2c2d2d9dededd838281838183f1d6dcd0d8dd9fd2dedc"><span class="__cf_email__" data-cfemail="fb89d5888b8e99979298889893949497c9c8cbc9cbc9bb9c969a9297d5989496">[email&#160;protected]</span></a></div></div></div>
         <div class="cc"><div class="cc-ic">🕐</div><div><div class="cc-lbl">School Timing</div><div class="cc-val">Mon – Sat<br><span style="color:var(--gold2);font-weight:700">8:00 AM – 2:30 PM</span></div></div></div>
       </div>
       <div class="con-right">
@@ -965,7 +965,7 @@ footer{background:#040D1A}
         <ul class="foot-links">
           <li><a href="tel:8787035980">📞 8787035980</a></li>
           <li><a href="tel:9335399235">📞 9335399235</a></li>
-          <li><a href="mailto:r.spublicschool230202@gmail.com">✉️ Send Email</a></li>
+          <li><a href="/cdn-cgi/l/email-protection#d7a5f9a4a7a2b5bbbeb4a4b4bfb8b8bbe5e4e7e5e7e597b0bab6bebbf9b4b8ba">✉️ Send Email</a></li>
           <li><a href="#contact">📍 सहजनी पूरे गिरवर</a></li>
         </ul>
         <div style="margin-top:1rem;padding:1rem;background:rgba(200,151,31,.08);border:1px solid rgba(200,151,31,.15);border-radius:8px;text-align:center">
@@ -1059,7 +1059,7 @@ footer{background:#040D1A}
         <div style="text-align:center;flex:1;padding:0 10px">
           <div style="font-size:26px;font-weight:900;color:#0F2557;letter-spacing:1px;font-family:'Times New Roman',serif">R.S PUBLIC SCHOOL</div>
           <div style="font-size:14px;color:#333;margin:2px 0;font-family:sans-serif">सहजनी पूरे गिरवर</div>
-          <div style="font-size:12px;color:#555;font-family:sans-serif">Mob- 8787035980 , 9335399235 &nbsp;|&nbsp; email- r.spublicschool230202@gmail.com</div>
+          <div style="font-size:12px;color:#555;font-family:sans-serif">Mob- 8787035980 , 9335399235 &nbsp;|&nbsp; email- rspublicschool230202@gmail.com</div>
         </div>
         <div style="width:80px;height:95px;border:1.5px solid #888;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:10px;color:#888;text-align:center;font-family:sans-serif;flex-shrink:0">
           <div>पासपोर्ट</div><div>साइज़</div><div>फ़ोटो</div>
@@ -1285,7 +1285,6 @@ footer{background:#040D1A}
     </div>
   </div>
 </div>
-
 <script>
 // ── CONSTANTS ──
 var PASS = 'Admin8787';
@@ -1754,4 +1753,7 @@ function setupNav(){
   document.getElementById('ham').addEventListener('click',function(){ document.getElementById('navLinks').classList.toggle('open'); });
   document.querySelectorAll('#navLinks a').forEach(function(a){ a.addEventListener('click',function(){ document.getElementById('navLinks').classList.remove('open'); }); });
   window.addEventListener('scroll',function(){
-    var pos = window.scr
+    var pos = window.scrollY+120;
+    document.querySelectorAll('section[id],div[id]').forEach(function(s){
+      if(pos>=s.offsetTop&&pos<s.offsetTop+s.offsetHeight){
+        document.querySelectorAll('.nav-links a').forEach(function(a){a.classList.remove('active'
